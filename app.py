@@ -32,7 +32,7 @@ st.markdown("""
 ADMIN_USERNAME = st.secrets["credentials"]["ADMIN_USERNAME"]
 ADMIN_PASSWORD = st.secrets["credentials"]["ADMIN_PASSWORD"]
 
-DEFAULT_CSV_PATH = r"C:\Users\User\Documents\GitHub\membership-dashboard\ieee_sri_lanka_membership_sample.csv"
+DEFAULT_CSV_PATH = r"ieee_sri_lanka_membership_sample.csv"
 
 if "membership_data" not in st.session_state:
     if os.path.exists(DEFAULT_CSV_PATH):
