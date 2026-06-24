@@ -1,2 +1,2 @@
 # Streamlit secrets file
-secrets.toml
+.streamlit/secrets.toml
